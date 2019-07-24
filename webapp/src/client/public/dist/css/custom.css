@@ -1,0 +1,216 @@
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+}
+
+.iflat {
+    font-size: 20px;
+}
+
+#list-actions li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.dropwidget {
+    margin: 5%;
+    border-width: 2px;
+    border-color: rgb(102, 102, 102);
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.dropwidget img {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.dropwidget p {
+    text-align: center;
+}
+
+.notification-list {
+    position: fixed;
+    bottom: 0%;
+    right: 15px;
+    width: 20%;
+}
+
+.notification {
+    height: 80px;
+}
+
+
+/* Language Selector */
+
+#lang-select {
+    height: 50px;
+}
+
+#lang-select img {
+    width: 20px;
+    height: 20px;
+}
+
+#lang-select>.dropdown-toggle {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+
+#lang-select>.dropdown-toggle img {
+    display: inline-block;
+    line-height: 1;
+}
+
+#lang-select.open>.dropdown-toggle {
+    background: #f5f5f6;
+}
+
+#lang-select .dropdown-menu {
+    background: #f5f5f6;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 0 3px 3px 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 3px 3px 3px;
+    -moz-background-clip: padding;
+    border-radius: 0 3px 3px 3px;
+    background-clip: padding-box;
+}
+
+#lang-select .dropdown-menu.pull-right {
+    -webkit-border-radius: 3px 0 3px 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px 0 3px 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px 0 3px 3px;
+    background-clip: padding-box;
+}
+
+#lang-select .dropdown-menu>li {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#lang-select .dropdown-menu>li a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    -webkit-border-radius: 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0;
+    -moz-background-clip: padding;
+    border-radius: 0;
+    background-clip: padding-box;
+    padding: 10px 20px;
+    color: #8d929a;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+#lang-select .dropdown-menu>li a img {
+    margin-right: 5px;
+}
+
+#lang-select .dropdown-menu>li a:hover {
+    background: #ccc;
+}
+
+#lang-select .dropdown-menu>li:last-child {
+    border-bottom: 0;
+}
+
+#lang-select .dropdown-menu>li.active a {
+    background: rgba(235, 235, 235, 0.9);
+    color: #737881;
+}
+
+#lang-select.open>.dropdown-toggle {
+    -webkit-border-radius: 3px 3px 0 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px 3px 0 0;
+    -moz-background-clip: padding;
+    border-radius: 3px 3px 0 0;
+    background-clip: padding-box;
+}
+
+
+/* Language Selector */
+
+@media(max-width: 1500px) {
+    #row_widgets .col-lg-3 {
+        width: 50%;
+    }
+    #row_address .col-lg-3 {
+        width: 50%;
+    }
+    #row_two_widgets .col-lg-3 {
+        width: 50%;
+    }
+    #knob_widget {
+        width: 100%;
+    }
+    /*#rowStats .col-lg-6 {
+        width: 100%;
+    }*/
+}
+
+
+/*
+@media(max-width: 1200px) and (min-width: 900px) {
+    #rowStats .col-lg-6 {
+        width: 50%;
+    }
+}*/
+
+@media(max-width: 900px) {
+    #row_widgets .col-lg-3 {
+        width: 100%;
+    }
+    #row_address .col-lg-3 {
+        width: 100%;
+    }
+    #row_two_widgets .col-lg-3 {
+        width: 100%;
+    }
+}
+
+#dropdown-rangepicker .dropdown-menu>li>a:hover {
+    background: #337ab7;
+    color: #fff;
+}
+
+#dropdown-rangepicker .dropdown-menu>li>a {
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.small-box-footer {
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none
+}
+
+.small-box-footer:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.15)
+}
