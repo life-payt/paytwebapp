@@ -13,3 +13,6 @@ The Web Application is served through the payt-http-server module. To update the
 
 #### User Interface
 ![](https://github.com/life-payt/paytportal/blob/master/diagrams/user.png)
+
+
+This work was Co-funded by the LIFE-PAYT project of the EU LIFE Programme with the reference LIFE15 ENV/PT/609 
